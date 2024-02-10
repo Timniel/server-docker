@@ -49,7 +49,7 @@ RUN ./download_server.sh
 # for custom or manual builds if $VERSION argument is not empty.
 COPY . .
 
-VOLUME ["/root/.stremio-server"]
+# VOLUME ["/root/.stremio-server"]
 
 # HTTP
 EXPOSE 11470
